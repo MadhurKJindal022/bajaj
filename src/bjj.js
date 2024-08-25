@@ -1,6 +1,7 @@
-import './App.css';
+import React from 'react';
+import './HerokuSplash.css';
 
-function App() {
+const HerokuSplash = () => {
   return (
     <div className="heroku-splash-container">
       <div className="heroku-logo">
@@ -17,6 +18,7 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default HerokuSplash;
+

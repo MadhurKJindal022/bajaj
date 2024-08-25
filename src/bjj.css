@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #7c56b5, #5f83f2);
+  }
+  
+  .heroku-splash-container {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .heroku-logo {
+    margin-bottom: 20px;
+  }
+  
+  .heroku-logo svg {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .heroku-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .heroku-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .heroku-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .heroku-footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .heroku-footer svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  
